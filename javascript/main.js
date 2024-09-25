@@ -15,8 +15,8 @@
 
 // Donation and History Section Change
     document.getElementById('btn-history-section').addEventListener('click',function () {
-        showSection('history-section');
+        showSection('history-section', 'btn-history-section');
     })  
     document.getElementById('btn-donation-section').addEventListener('click',function () {
-        showSection('donation-section');
+        showSection('donation-section', 'btn-donation-section');
     })  
