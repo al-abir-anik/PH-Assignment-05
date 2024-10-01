@@ -29,6 +29,8 @@ function handleDonation(inputId, modalId, balanceId, reliefName) {
 
   const modal = document.getElementById(modalId);
   modal.showModal();
+  document.getElementById(inputId).value = "";
+
 
   const date = new Date();
   const historyDiv = document.createElement("div");
